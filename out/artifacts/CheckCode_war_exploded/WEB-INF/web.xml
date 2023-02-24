@@ -82,13 +82,13 @@
             <description>文本实现类</description>
             <param-name>kaptcha.textproducer.impl</param-name>
             <param-value>
-                com.google.code.kaptcha.text.impl.DefaultTextCreator
+                 com.CheckCode.ChineseText
             </param-value>
         </init-param>
         <init-param>
             <description>文本集合，验证码值从此集合中获取</description>
             <param-name>kaptcha.textproducer.char.string</param-name>
-            <param-value>leibin666</param-value>
+            <param-value>abcdefghijklmnopqrstuvwxyz0123456789</param-value>
         </init-param>
         <init-param>
             <description>字体 Arial,Courier</description>
@@ -128,7 +128,7 @@
             <description>图片样式：水纹，鱼眼，阴影</description>
             <param-name>kaptcha.obscurificator.impl</param-name>
             <param-value>
-                com.google.code.kaptcha.impl.FishEyeGimpy
+                com.google.code.kaptcha.impl.WaterRipple
             </param-value>
         </init-param>
         <init-param>
