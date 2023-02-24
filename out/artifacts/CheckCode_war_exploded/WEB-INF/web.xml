@@ -42,7 +42,7 @@
     <servlet>
         <servlet-name>Kaptcha</servlet-name>
         <servlet-class>
-            com.google.code.kaptcha.servlet.KaptchaServlet
+            com.CheckCode.KaptchaServlet
         </servlet-class>
         <init-param>
             <description>图片边框，合法值：yes,no</description>
@@ -89,6 +89,11 @@
             <description>文本集合，验证码值从此集合中获取</description>
             <param-name>kaptcha.textproducer.char.string</param-name>
             <param-value>abcdefghijklmnopqrstuvwxyz0123456789</param-value>
+        </init-param>
+        <init-param>
+            <description>验证码长度 5</description>
+            <param-name>kaptcha.textproducer.char.length</param-name>
+            <param-value>5</param-value>
         </init-param>
         <init-param>
             <description>字体 Arial,Courier</description>
