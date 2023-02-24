@@ -13,14 +13,14 @@
     <script type="text/javascript">
       function reloadCode() {
           var time = new Date().getTime();
-          document.getElementById("imagecode").src="<%=request.getContextPath()%>/jcaptcha.jpg?d="+time;
+          document.getElementById("imagecode").src="<%=request.getContextPath()%>/kaptcha?d="+time;
       }
     </script>
   </head>
   <body>
-  <form action="<%=request.getContextPath() %>/SubmitAction" method="post">
-    验证码：<input type="text" name="jcaptcha" />
-    <img alt="验证码" id="imagecode" src="<%=request.getContextPath()%>/jcaptcha.jpg"/>
+  <form action="check.jsp">
+    验证码：<input type="text" name="r" />
+    <img alt="验证码" id="imagecode" src="<%=request.getContextPath()%>/kaptcha"/>
     <a href="javascript:reloadCode();">看不清楚</a><br>
     <input type="submit" value="提交">
   </form>
