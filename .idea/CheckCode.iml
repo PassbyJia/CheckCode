@@ -27,5 +27,12 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" exported="" name="lib" level="project" />
     <orderEntry type="library" name="servlet-api-2.5" level="project" />
+    <orderEntry type="library" name="jcaptcha-2.0-alpha-1-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="commons-collections-3.2" level="project" />
+    <orderEntry type="library" name="commons-logging-1.0.4" level="project" />
+    <orderEntry type="library" name="filters-2.0.235" level="project" />
+    <orderEntry type="library" name="kaptcha-2.3" level="project" />
+    <orderEntry type="library" name="jcaptcha-api-1.0 " level="project" />
+    <orderEntry type="library" name="jcaptcha-integration-simple-servlet-2.0-alpha-1-SNAPSHOT (2)" level="project" />
   </component>
 </module>
